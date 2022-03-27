@@ -29,6 +29,4 @@ jobs:
           propertyPath: 'spec.template.spec.containers[0].image'
           value: 797215417207.dkr.ecr.ap-south-1.amazonaws.com/${{ github.event.client_payload.image }}
           branch: main
-          message: 'Update Image Version to ${{ github.event.client_payload.image }}
-
-     
+          message: "Update Image Version to ${{ github.event.client_payload.image }}"
