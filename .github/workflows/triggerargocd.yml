@@ -12,7 +12,7 @@ jobs:
       - name: Update Image Version kube.yaml
         uses: fjogeleit/yaml-update-action@main
         with:
-          valueFile: 'kube/kube.yaml'
+          valueFile: 'kube/deployment.yaml'
           propertyPath: 'spec.template.spec.containers[0].image'
           value: 797215417207.dkr.ecr.ap-south-1.amazonaws.com/${{ github.event.client_payload.image }}
           branch: main
