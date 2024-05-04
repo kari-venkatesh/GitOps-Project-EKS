@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nodebackend
-          image: /:246dcecd99a700feb5377412e889d6e888d91d56
+          image: /:a48551067f37c535a8eaae15cd8c96dd2a9a9a91
           ports:
             - containerPort: 8000
           imagePullPolicy: Always
